@@ -12,8 +12,9 @@ export default function Home() {
         <title>Kris. Inc</title>
       </Head>
       <h1>
-        hi ther my friend
+        hi there
       </h1>
+      
     </>
   )
 }
