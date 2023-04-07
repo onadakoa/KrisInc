@@ -5,8 +5,16 @@ import Link from "next/link"
 import NavBar from "../components/NavBar"
 
 export default function App({ Component, pageProps }: AppProps) {
+  const sites = [
+    {
+      href: "https://google.com/",
+      name: "subsite"
+    }
+  ]
+
+
   return <>
-    <NavBar />
+    <NavBar HostName='TestSite' SubSites={sites} />
 
     <Component {...pageProps} />
   </>
