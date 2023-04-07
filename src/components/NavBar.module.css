@@ -1,17 +1,18 @@
 .NavBar {
-    background-color: red;
+    background-color: transparent;
     width: 100vw;
     height: 50px;
 
     display: grid;
     grid-template-columns: 35% auto;
-    /* align-items: center;
-    justify-items: center; */
+
+    color: black;
 }
 
 .NavBar {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 1.6rem;
+    font-family: sans-serif;
 }
 
 .NavBar div {
@@ -20,7 +21,8 @@
 }
 
 .NavBar .SubSites {
-    font-weight: 300;
+
+    font-weight: 900;
     font-size: 1rem;
 
     width: 100%;
