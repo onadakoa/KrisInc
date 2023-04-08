@@ -1,12 +1,14 @@
 .NavBar {
     background-color: transparent;
     width: 100vw;
-    height: 50px;
+    height: 60px;
 
     display: grid;
     grid-template-columns: 35% auto;
 
     color: black;
+
+    border-bottom: 1px solid black;
 }
 
 .NavBar {
