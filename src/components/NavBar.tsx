@@ -5,7 +5,7 @@ import styles from "../styles/NavBar.module.css"
 
 import Link from "next/link"
 
-interface subsite {
+export interface subsite {
   name: string;
   href: string;
 }

@@ -4,11 +4,12 @@
     height: 60px;
 
     display: grid;
-    grid-template-columns: 35% auto;
+    grid-template-columns: 35% 65%;
 
     color: black;
 
     border-bottom: 1px solid black;
+    overflow: hidden;
 }
 
 .NavBar {
@@ -20,6 +21,7 @@
 .NavBar div {
     align-self: center;
     justify-self: center;
+    overflow: hidden;
 }
 
 .NavBar .SubSites {
