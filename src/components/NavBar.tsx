@@ -1,7 +1,7 @@
 import { Roboto } from "next/font/google";
 const roboto = Roboto({ subsets: ["latin"], weight: "400" })
 
-import styles from "./NavBar.module.css"
+import styles from "../styles/NavBar.module.css"
 
 import Link from "next/link"
 
@@ -25,7 +25,6 @@ export default function NavBar(props: props) {
           props.SubSites?.map((site, i) => (
             <div key={i}>
               <Link href={site.href}>{site.name}</Link>
-              {/* <a href={site.href}>{site.name}</a> */}
             </div>
           ))
         }
