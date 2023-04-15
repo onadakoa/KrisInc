@@ -24,6 +24,7 @@
     overflow: hidden;
 }
 
+
 .NavBar .SubSites {
 
     font-weight: 900;
@@ -37,3 +38,5 @@
     gap: 10%;
 
 }
+
+.NavBar .SiteName {}

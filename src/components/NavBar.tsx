@@ -19,7 +19,7 @@ export default function NavBar(props: props) {
 
   return (
     <div className={[styles.NavBar, roboto.className].join(" ")}>
-      <div>{props.HostName}</div>
+      <div className={styles.SiteName}>{props.HostName}</div>
       <div className={styles.SubSites}>
         {
           props.SubSites?.map((site, i) => (
