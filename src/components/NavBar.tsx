@@ -1,9 +1,11 @@
 import { Roboto } from "next/font/google";
 const roboto = Roboto({ subsets: ["latin"], weight: "400" })
 
-import styles from "./NavBar.module.css"
+import styles from "../styles/NavBar.module.css"
 
-interface subsite {
+import Link from "next/link"
+
+export interface subsite {
   name: string;
   href: string;
 }
@@ -17,12 +19,12 @@ export default function NavBar(props: props) {
 
   return (
     <div className={[styles.NavBar, roboto.className].join(" ")}>
-      <div>{props.HostName}</div>
+      <div className={styles.SiteName}>{props.HostName}</div>
       <div className={styles.SubSites}>
         {
           props.SubSites?.map((site, i) => (
             <div key={i}>
-              <a href={site.href}>{site.name}</a>
+              <Link href={site.href}>{site.name}</Link>
             </div>
           ))
         }

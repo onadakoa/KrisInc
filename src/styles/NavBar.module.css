@@ -1,26 +1,33 @@
 .NavBar {
-    background-color: red;
+    background-color: transparent;
     width: 100vw;
-    height: 50px;
+    height: 60px;
 
     display: grid;
-    grid-template-columns: 35% auto;
-    /* align-items: center;
-    justify-items: center; */
+    grid-template-columns: 35% 65%;
+
+    color: black;
+
+    border-bottom: 1px solid black;
+    overflow: hidden;
 }
 
 .NavBar {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 1.6rem;
+    font-family: sans-serif;
 }
 
 .NavBar div {
     align-self: center;
     justify-self: center;
+    overflow: hidden;
 }
 
+
 .NavBar .SubSites {
-    font-weight: 300;
+
+    font-weight: 900;
     font-size: 1rem;
 
     width: 100%;
@@ -31,3 +38,5 @@
     gap: 10%;
 
 }
+
+.NavBar .SiteName {}

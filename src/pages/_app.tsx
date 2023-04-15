@@ -2,13 +2,29 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Link from "next/link"
 
-import NavBar from "../components/NavBar"
+import NavBar, { subsite } from "../components/NavBar"
 
 export default function App({ Component, pageProps }: AppProps) {
-  const sites = [
+  const sites: subsite[] = [
     {
       href: "https://google.com/",
-      name: "subsite"
+      name: "Shop"
+    },
+    {
+      href: "/account",
+      name: "Account"
+    },
+    {
+      href: "/aboutUs",
+      name: "AboutUs?"
+    },
+    {
+      href: "/aboutUs",
+      name: "AboutUs?"
+    },
+    {
+      href: "/aboutUs",
+      name: "AboutUs?"
     }
   ]
 
