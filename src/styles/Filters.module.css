@@ -3,23 +3,25 @@
 
     display: flex;
 
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     flex-wrap: wrap;
 
     border-bottom: 2px solid black;
+
 }
 
 .Container>div {
     box-sizing: border-box;
 
-    width: 50%;
+    /* width: 50%; */
 
     padding: 4px;
 
     display: flex;
     justify-content: center;
+
 }
 
 .Container>div>div {
@@ -37,4 +39,6 @@
     border-radius: 2px;
 
     color: black;
+
+    width: auto;
 }
