@@ -1,0 +1,40 @@
+.Container {
+    width: 100vw;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    border-bottom: 2px solid black;
+}
+
+.Container>div {
+    box-sizing: border-box;
+
+    width: 50%;
+
+    padding: 4px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.Container>div>div {
+    border: solid black 1.5px;
+    border-radius: 2px;
+
+    padding: 5px;
+
+
+}
+
+.Container>div>div>input[type=text] {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+
+    color: black;
+}

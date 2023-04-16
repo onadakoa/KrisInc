@@ -3,17 +3,18 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from "../styles/Shop.module.css"
 
+import FiltersMenu from "../components/Filters"
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
   return (
     <>
       <Head>
         <title>Kris. Inc</title>
       </Head>
-      <div className={styles.Container}>
-        filters
-      </div>
+      <FiltersMenu />
 
     </>
   )
